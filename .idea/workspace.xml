@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c00ac43b-c1bd-4a4c-8d76-84e9702026e0" name="Changes" comment="initial push">
-      <change afterPath="$PROJECT_DIR$/src/LoopPractice1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringCharacterPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VariablePractice.java" afterDir="false" />
+    <list default="true" id="c00ac43b-c1bd-4a4c-8d76-84e9702026e0" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/src/LoopPractice2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoopPractice1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoopPractice1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringCharacterPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringCharacterPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VariablePractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VariablePractice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,11 +57,19 @@
       <option name="project" value="LOCAL" />
       <updated>1705075800075</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update">
+      <created>1705077581896</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705077581896</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial push" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial push" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
