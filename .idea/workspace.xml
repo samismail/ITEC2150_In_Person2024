@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c00ac43b-c1bd-4a4c-8d76-84e9702026e0" name="Changes" comment="Loop2 update">
-      <change afterPath="$PROJECT_DIR$/src/MethodPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyReview.java" afterDir="false" />
+    <list default="true" id="c00ac43b-c1bd-4a4c-8d76-84e9702026e0" name="Changes" comment="MyReview update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +71,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705098308712</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="MyReview update">
+      <option name="closed" value="true" />
+      <created>1705100524162</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705100524162</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -91,6 +97,7 @@
     <MESSAGE value="initial push" />
     <MESSAGE value="update" />
     <MESSAGE value="Loop2 update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Loop2 update" />
+    <MESSAGE value="MyReview update" />
+    <option name="LAST_COMMIT_MESSAGE" value="MyReview update" />
   </component>
 </project>
