@@ -24,4 +24,5 @@ public class MethodPractice {
         return hello;
     }
 
+
 }
