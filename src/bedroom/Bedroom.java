@@ -100,7 +100,6 @@ public class Bedroom {
         System.out.println("makeBed() method from Bedroom class makes bed");
         this.make(); // from bedroom class (current class)
         bed.make(); //from Bed class
-
     }
 
     public void make(){
