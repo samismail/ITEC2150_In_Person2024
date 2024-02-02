@@ -9,7 +9,7 @@ public class BuildMyBedroom {
         Wall w4 = new Wall("West");
         Size size = new Size(10,5);
         Ceiling ceiling = new Ceiling(4, "Grey", size);
-        Bed bed = new Bed();
+        Bed bed = new Bed(2, size, "black", "wood");
         Door door = new Door();
         Desk desk = new Desk();
 
