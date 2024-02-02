@@ -2,7 +2,7 @@ package bedroom;
 
 public class Bed {
 
-    private int numberOfPillows
+    private int numberOfPillows;
     private String size; // queen double twin king ect
     private String color;
     private String material; // wood metal
