@@ -1,4 +1,11 @@
 package bedroom;
+/*Class: Bedroom
+Author: Sam Ismail
+Date: 02/02/2024
+Description: main class to output all information of bedroom
+ */
+
+import java.awt.geom.Area;
 
 public class Bedroom {
 
@@ -11,8 +18,9 @@ public class Bedroom {
     private Bed bed;
     private Door door;
     private Desk desk;
+    private Size size;
 
-    public Bedroom(String name, Wall wall1, Wall wall2, Wall wall3, Wall wall4, Ceiling ceiling, Bed bed, Door door, Desk desk) {
+    public Bedroom(String name, Wall wall1, Wall wall2, Wall wall3, Wall wall4, Ceiling ceiling, Bed bed, Door door, Desk desk, Size size) {
         this.name = name;
         this.wall1 = wall1;
         this.wall2 = wall2;
@@ -22,6 +30,7 @@ public class Bedroom {
         this.bed = bed;
         this.door = door;
         this.desk = desk;
+        this.size = size;
     }
 
     public String getName() {
@@ -96,6 +105,14 @@ public class Bedroom {
         this.desk = desk;
     }
 
+    public Size getSize() {
+        return size;
+    }
+
+    public void setSize(Size size) {
+        this.size = size;
+    }
+
     public void makeBed(){
         System.out.println("makeBed() method from Bedroom class makes bed");
         this.make(); // from bedroom class (current class)
@@ -109,5 +126,19 @@ public class Bedroom {
 
     public void straightenedSheet(){
         System.out.println("Straightening the sheet");
+    }
+
+    @Override
+    public String toString() {
+        return  "               " + name + '\n' + "                  Walls" + '\n' +
+                "Wall 1" + wall1 +
+                ", Wall 2" + wall2 +
+                ", Wall 3" + wall3 +
+                ", Wall 4" + wall4 + '\n' +
+                "                 Room Dimensions "+ '\n' + size + '\n' +
+                "                  Ceiling " + '\n' + ceiling + '\n' +
+                "                  Bed " + '\n' + bed + '\n' +
+                "                  Door " + '\n' + door + '\n' +
+                "                  Desk " + '\n' + desk;
     }
 }

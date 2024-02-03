@@ -1,4 +1,9 @@
 package bedroom;
+/*Class: Door
+Author: Sam Ismail
+Date: 02/02/2024
+Description: class to output door size and info
+ */
 
 public class Door {
 
@@ -11,6 +16,7 @@ public class Door {
         this.color = color;
         this.material = material;
     }
+
 
     public Size getSize() {
         return size;
@@ -34,5 +40,31 @@ public class Door {
 
     public void setMaterial(String material) {
         this.material = material;
+    }
+
+    public double getWidth(){
+        return size.getWidth();
+    }
+
+    public void setWidth(Size size, double width){
+        // size = new Size();
+        this.size = size;
+        size.setWidth(width);
+    }
+
+    public double getLength(){
+        return size.getLength();
+    }
+
+    public void setLength(Size size, double length){
+        this.size = size;
+        size.setLength(length);
+    }
+
+    @Override
+    public String toString() {
+        return  "Color: " + color +
+                ", Material: " + material +
+                " Dimensions: " + getLength() + " ft by " + getWidth() + " ft";
     }
 }
