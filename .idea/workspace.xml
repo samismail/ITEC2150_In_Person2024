@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c00ac43b-c1bd-4a4c-8d76-84e9702026e0" name="Changes" comment="In class 2/2 Ceiling.java update">
-      <change afterPath="$PROJECT_DIR$/src/bedroom/BuildMyBedroom.java" afterDir="false" />
+    <list default="true" id="c00ac43b-c1bd-4a4c-8d76-84e9702026e0" name="Changes" comment="In class 2/2 Tester">
+      <change afterPath="$PROJECT_DIR$/src/InheritenceDemo/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InheritenceDemo/Mammal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InheritenceDemo/Reptile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bedroom/Bed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bedroom/Bed.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +30,7 @@
   </component>
   <component name="ProjectId" id="2arTJ6JChesd2eN478B8xwraWVJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -39,7 +41,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/sismail1/IdeaProjects/ITEC2150_In_Person2024/src/StudentTester.java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sismail1/IdeaProjects/ITEC2150_In_Person2024&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.excludes&quot;
   }
 }</component>
