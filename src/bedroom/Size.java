@@ -1,4 +1,9 @@
 package bedroom;
+/*Class: Size
+Author: Sam Ismail
+Date: 02/02/2024
+Description: class to output sizes for everything in the bedroom
+ */
 
 public class Size {
 
@@ -39,5 +44,12 @@ public class Size {
 
     public void setLength(double length) {
         this.length = length;
+    }
+
+    @Override
+    public String toString() {
+        return  "Length: " + length +
+                " Width: " + width +
+                " Height: " + height;
     }
 }

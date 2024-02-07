@@ -1,4 +1,9 @@
 package bedroom;
+/*Class: Wall
+Author: Sam Ismail
+Date: 02/02/2024
+Description: Class to output wall direction of the room
+ */
 
 public class Wall {
 
@@ -14,5 +19,10 @@ public class Wall {
 
     public void setDirection(String direction) {
         this.direction = direction;
+    }
+
+    @Override
+    public String toString() {
+        return ": " + direction;
     }
 }

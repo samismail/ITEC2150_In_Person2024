@@ -1,4 +1,9 @@
 package bedroom;
+/*Class: Ceiling
+Author: Sam Ismail
+Date: 02/02/2024
+Description: ceiling class to output dimensions and info of ceiling
+ */
 
 public class Ceiling {
 
@@ -9,6 +14,7 @@ public class Ceiling {
     public Ceiling(int numberOfLights, String color, Size size) {
         this.numberOfLights = numberOfLights;
         this.color = color;
+        this.size = size;
         this.size = size;
     }
 
@@ -56,4 +62,10 @@ public class Ceiling {
      }
 
 
+    @Override
+    public String toString() {
+        return  "Number of Lights: " + numberOfLights +
+                ", Ceiling Color: " + color +
+                ", Dimensions: " + getLength() + " ft by " + getWidth() + " ft";
+    }
 }

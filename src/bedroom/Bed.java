@@ -1,4 +1,9 @@
 package bedroom;
+/*Class: Bed
+Author: Sam Ismail
+Date: 02/02/2024
+Description: to output the information on a bed
+ */
 
 public class Bed {
 
@@ -48,5 +53,13 @@ public class Bed {
 
     public void make(){
         System.out.println("Bed class - make() method ");
+    }
+
+    @Override
+    public String toString() {
+        return  "Number of Pillows: " + numberOfPillows +
+                ", Size: " + size +
+                ", Color: " + color +
+                ", Material: " + material;
     }
 }
