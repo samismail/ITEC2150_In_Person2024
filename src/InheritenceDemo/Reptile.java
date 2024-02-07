@@ -20,7 +20,8 @@ public class Reptile extends Animal{
 
     @Override
     public void eat() {
-        Mammal.eat();
+        super.eat();
+        System.out.println(" sssssoo taste!");
     }
 
     public boolean isHasTail() {
