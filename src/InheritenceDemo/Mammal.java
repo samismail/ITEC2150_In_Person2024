@@ -4,10 +4,6 @@ public class Mammal extends Animal{
     private boolean hasFur;
     private boolean giveBirth;
 
-    public Mammal(){
-        super(false, 2, "Omnivore");
-    }
-
     public Mammal(boolean hasFur, boolean giveBirth){
         super(false, 2, "Omnivore");
         this.hasFur = hasFur;
@@ -17,7 +13,7 @@ public class Mammal extends Animal{
     @Override
     public void makeNoise() {
         super.makeNoise();
-        System.out.println(" Meow~~~")
+        System.out.println(" Meow~~~");
     }
 
     @Override
