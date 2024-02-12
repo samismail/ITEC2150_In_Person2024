@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c00ac43b-c1bd-4a4c-8d76-84e9702026e0" name="Changes" comment="In class 2/2 Tester">
-      <change afterPath="$PROJECT_DIR$/src/PointDemo/NamedPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PointDemo/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PointDemo/PointTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InheritenceDemo/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InheritenceDemo/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InheritenceDemo/Mammal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InheritenceDemo/Mammal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InheritenceDemo/Reptile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InheritenceDemo/Reptile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MultiPoint/Point.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,10 +34,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
   <component name="RunManager" selected="Application.PointTester">
     <configuration name="House" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="House" />
@@ -144,7 +140,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial push" />
