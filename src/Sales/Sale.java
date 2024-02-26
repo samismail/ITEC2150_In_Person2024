@@ -18,7 +18,7 @@ public class Sale {
     }
 
     public Sale(Sale sObject){
-        //pree condition to check if sObject you are taking in the method is pointing to nothing
+        //precondition to check if sObject you are taking in the method is pointing to nothing
         if (sObject == null){
             System.out.println("Null pointer exception of errors");
 
@@ -58,6 +58,48 @@ public class Sale {
 
     public double totalPrice() {
         return price;
+    }
+
+    public boolean equalDeals(Sale compareSaleObject){
+        if (compareSaleObject == null){
+            return false;
+        }
+        else {
+            return (this.totalPrice() == compareSaleObject.totalPrice()) && this.name.equals(compareSaleObject.name);
+        }
+    }
+    public boolean equals(Object obj){
+        if (obj == null){
+            return false;
+        }
+        else if (this.getClass() != obj.getClass()) {
+            return false;
+        }
+        else {
+             Sale sObj = (Sale)obj;
+//             return (this.name.equals(((Sale) obj).name) && sObj.price == ((Sale) obj).price);
+             return (this.name.equals((sObj).name) && (this.price == (sObj.price));
+        }
+    }
+
+    public boolean lessThan(Sale so) {
+        if (so == null){
+            System.out.println("error. ");
+            System.exit(1);
+        }
+        else {
+            return totalPrice() < so.totalPrice();
+        }
+    }
+
+    public boolean greaterThan(Sale so) {
+        if (so == null){
+            System.out.println("error");
+            System.exit(1);
+        }
+        else {
+            return totalPrice() > so.totalPrice();
+        }
     }
 
     public String toString(){

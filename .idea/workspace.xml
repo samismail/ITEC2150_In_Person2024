@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c00ac43b-c1bd-4a4c-8d76-84e9702026e0" name="Changes" comment="In class 2/2 Tester">
-      <change afterPath="$PROJECT_DIR$/src/Sales/DiscountSale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sales/ProductSales.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sales/Sale.java" afterDir="false" />
+    <list default="true" id="c00ac43b-c1bd-4a4c-8d76-84e9702026e0" name="Changes" comment="In class 2/23">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sales/Sale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sales/Sale.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706893362297</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="In class 2/23">
+      <created>1708707169592</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708707169592</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,7 +142,8 @@
     <MESSAGE value="update" />
     <MESSAGE value="In class 1/31" />
     <MESSAGE value="In class 2/2 Ceiling.java update" />
-    <option name="LAST_COMMIT_MESSAGE" value="In class 2/2 Ceiling.java update" />
+    <MESSAGE value="In class 2/23" />
+    <option name="LAST_COMMIT_MESSAGE" value="In class 2/23" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ITEC2150_In_Person2024$House.ic" NAME="House Coverage Results" MODIFIED="1706287974866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
