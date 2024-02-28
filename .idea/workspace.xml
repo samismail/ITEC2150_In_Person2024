@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c00ac43b-c1bd-4a4c-8d76-84e9702026e0" name="Changes" comment="In class 2/26">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="c00ac43b-c1bd-4a4c-8d76-84e9702026e0" name="Changes" comment="In class 2/28">
+      <change afterPath="$PROJECT_DIR$/src/AbstractDemo/AbstractClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ITEC2150_In_Person2024.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ITEC2150_In_Person2024.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sales/DiscountSale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sales/DiscountSale.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Sales/ProductSales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sales/ProductSales.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sales/Sale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sales/Sale.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708967852338</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="In class 2/28">
+      <created>1709137625942</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709137625942</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,7 +173,8 @@
     <MESSAGE value="In class 2/2 Ceiling.java update" />
     <MESSAGE value="In class 2/23" />
     <MESSAGE value="In class 2/26" />
-    <option name="LAST_COMMIT_MESSAGE" value="In class 2/26" />
+    <MESSAGE value="In class 2/28" />
+    <option name="LAST_COMMIT_MESSAGE" value="In class 2/28" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ITEC2150_In_Person2024$House.ic" NAME="House Coverage Results" MODIFIED="1706287974866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
