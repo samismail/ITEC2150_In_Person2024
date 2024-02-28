@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c00ac43b-c1bd-4a4c-8d76-84e9702026e0" name="Changes" comment="In class 2/23">
+    <list default="true" id="c00ac43b-c1bd-4a4c-8d76-84e9702026e0" name="Changes" comment="In class 2/26">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ITEC2150_In_Person2024.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ITEC2150_In_Person2024.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sales/DiscountSale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sales/DiscountSale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sales/ProductSales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sales/ProductSales.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Sales/Sale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sales/Sale.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,15 +39,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/sismail1/IdeaProjects/ITEC2150_In_Person2024&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.excludes&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/sismail1/IdeaProjects/ITEC2150_In_Person2024/src/MultiPoint",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.excludes"
   }
-}</component>
-  <component name="RunManager" selected="Application.Tester">
+}]]></component>
+  <component name="RunManager" selected="Application.ProductSales">
     <configuration name="House" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="House" />
       <module name="ITEC2150_In_Person2024" />
@@ -54,6 +58,19 @@
     <configuration name="InClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InClass" />
       <module name="ITEC2150_In_Person2024" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductSales" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sales.ProductSales" />
+      <module name="ITEC2150_In_Person2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sales.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -73,6 +90,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProductSales" />
         <item itemvalue="Application.Tester" />
         <item itemvalue="Application.InClass" />
         <item itemvalue="Application.House" />
@@ -123,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708707169592</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="In class 2/26">
+      <created>1708967852338</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708967852338</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,7 +168,8 @@
     <MESSAGE value="In class 1/31" />
     <MESSAGE value="In class 2/2 Ceiling.java update" />
     <MESSAGE value="In class 2/23" />
-    <option name="LAST_COMMIT_MESSAGE" value="In class 2/23" />
+    <MESSAGE value="In class 2/26" />
+    <option name="LAST_COMMIT_MESSAGE" value="In class 2/26" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ITEC2150_In_Person2024$House.ic" NAME="House Coverage Results" MODIFIED="1706287974866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

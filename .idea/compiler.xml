@@ -3,6 +3,7 @@
   <component name="CompilerConfiguration">
     <excludeFromCompile>
       <file url="file://$PROJECT_DIR$/src/StudentTester.java" />
+      <directory url="file://$PROJECT_DIR$/src/MultiPoint" includeSubdirectories="true" />
     </excludeFromCompile>
   </component>
 </project>
