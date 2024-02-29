@@ -5,9 +5,9 @@ public class ProductSales {
 
         Sale s1 = new Sale("Power Generator", 10.00);
         DiscountSale ds1 = new DiscountSale("Power Generator", 10.0,5);
+        double newPrice = s1.totalPrice() - ds1.
 
-            if (s1.greaterThan(ds1) == true)
-                return "This is a good deal you are saving $" + (s1.getPrice() - ds1.totalPrice());
+        System.out.println("This is a good deal you are saving $" + );
 
         System.out.println(s1);
         System.out.println(s1.totalPrice());
