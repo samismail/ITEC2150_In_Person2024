@@ -1,4 +1,4 @@
-package InterfacesDemo.Game;
+package InterfaceDemo;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -41,6 +41,38 @@ public class King implements ISavable{
             this.points = Integer.parseInt(lsv.get(1));
             this.direction = lsv.get(2);
         }
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getPoints() {
+        return points;
+    }
+
+    public void setPoints(int points) {
+        this.points = points;
+    }
+
+    public String getDirection() {
+        return direction;
+    }
+
+    public void setDirection(String direction) {
+        this.direction = direction;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
     }
 
     public String toString(){
