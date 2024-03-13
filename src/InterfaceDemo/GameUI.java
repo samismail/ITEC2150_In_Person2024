@@ -21,6 +21,8 @@ public class GameUI {
         Scanner scanner = new Scanner(System.in);
 
         // 1 or 0 1 is for entering some string value 0 is for exit
+
+
     }
     public static void loading(ISavable isobj){
 
