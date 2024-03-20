@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c00ac43b-c1bd-4a4c-8d76-84e9702026e0" name="Changes" comment="In class 3/13">
-      <change afterPath="$PROJECT_DIR$/src/InterfaceDemo/ISavable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterfaceDemo/GameUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterfaceDemo/GameUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterfaceDemo/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterfaceDemo/King.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterfaceDemo/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterfaceDemo/Queen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +165,21 @@
       <option name="project" value="LOCAL" />
       <updated>1710343499866</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="In class 3/13">
+      <created>1710346198685</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1710346198685</updated>
+    </task>
+    <task id="LOCAL-00011" summary="In class 3/13">
+      <created>1710346435112</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1710346435112</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
