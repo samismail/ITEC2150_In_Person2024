@@ -36,11 +36,11 @@ public class House implements Cloneable , Comparable<House>{
     }
 
     public Object cloneShallow(){
-         try {
+        try {
             return super.clone();
         }catch(CloneNotSupportedException e){
             return null;
-         }
+        }
     }
     public Object cloneDeep(){
         House houseClone = new House(id, area);
@@ -55,11 +55,11 @@ public class House implements Cloneable , Comparable<House>{
     public Object clone() throws CloneNotSupportedException{
         House hc = (House)super.clone();
         //shallow clone which will copy only built in type data
-       hc.whenbuilt =  (Date)whenbuilt.clone();
+        hc.whenbuilt =  (Date)whenbuilt.clone();
 
-       return hc;
+        return hc;
     }
- //complete the method header first
+    //complete the method header first
     public int compareTo(House o){
 
         //(1)
@@ -71,7 +71,7 @@ public class House implements Cloneable , Comparable<House>{
 //        }
 //        else return -1;
         //(2)
-     //   return this.area > o.area? -1: (this.area < o.area)? 1:0;
+        //   return this.area > o.area? -1: (this.area < o.area)? 1:0;
 
         //(3)
         return Double.compare(this.area, o.area);
@@ -92,6 +92,7 @@ public class House implements Cloneable , Comparable<House>{
         return this.id == ((House)o).getId() &&
                 this.whenbuilt.equals(((House) o).whenbuilt)
                 && this.area == ((House)o).getArea();
-        
+
     }
 }
+
