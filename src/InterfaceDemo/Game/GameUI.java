@@ -1,4 +1,4 @@
-package InterfaceDemo;
+package InterfaceDemo.Game;
 import java.util.ArrayList;
 import java.util.Scanner;
 public class GameUI {

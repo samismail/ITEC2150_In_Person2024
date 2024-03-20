@@ -1,4 +1,4 @@
-package InterfaceDemo;
+package InterfaceDemo.Game;
 
 import java.util.List;
 public interface ISavable {

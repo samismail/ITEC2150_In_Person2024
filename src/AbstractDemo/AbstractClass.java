@@ -20,11 +20,12 @@ class ConcreteClass extends AbstractClass {
     }
 }
 
-class AbstractTester{
+class AbstractTester {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 //        AbstractClass ab = new AbstractClass(); INCORRECT
         AbstractClass abc = new ConcreteClass();
         ConcreteClass cc = new ConcreteClass();
 
-            }
+    }
+}
