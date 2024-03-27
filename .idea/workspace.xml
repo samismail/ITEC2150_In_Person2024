@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c00ac43b-c1bd-4a4c-8d76-84e9702026e0" name="Changes" comment="In class 3/25">
-      <change afterPath="$PROJECT_DIR$/src/ExceptionHandlingBasic/SumException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExceptionHandlingBasic/SumExceptionHandling2.java" afterDir="false" />
+    <list default="true" id="c00ac43b-c1bd-4a4c-8d76-84e9702026e0" name="Changes" comment="In class 3/27">
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandlingBasic/CatchMultipleExceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandlingBasic/ExceptionHandlingMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandlingBasic/GradeDistrubution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExceptionHandlingBasic/SumExceptionHandling2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExceptionHandlingBasic/SumExceptionHandling2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,9 +50,22 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.excludes&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ExceptionDemo1">
+  <component name="RunManager" selected="Application.ExceptionHandlingMethods">
     <configuration name="ExceptionDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExceptionHandlingBasic.ExceptionDemo1" />
+      <module name="ITEC2150_In_Person2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ExceptionHandlingBasic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExceptionHandlingMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExceptionHandlingBasic.ExceptionHandlingMethods" />
       <module name="ITEC2150_In_Person2024" />
       <extension name="coverage">
         <pattern>
@@ -101,26 +116,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bedroom.Tester" />
-      <module name="ITEC2150_In_Person2024" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bedroom.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExceptionHandlingMethods" />
         <item itemvalue="Application.ExceptionDemo1" />
         <item itemvalue="Application.Movie" />
         <item itemvalue="Application.HouseTester" />
         <item itemvalue="Application.ProductSales" />
-        <item itemvalue="Application.Tester" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711383538317</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="In class 3/27">
+      <created>1711553131539</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1711553131539</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,7 +280,8 @@
     <MESSAGE value="In class 3/13" />
     <MESSAGE value="In class 3/20" />
     <MESSAGE value="In class 3/25" />
-    <option name="LAST_COMMIT_MESSAGE" value="In class 3/25" />
+    <MESSAGE value="In class 3/27" />
+    <option name="LAST_COMMIT_MESSAGE" value="In class 3/27" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ITEC2150_In_Person2024$House.ic" NAME="House Coverage Results" MODIFIED="1706287974866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

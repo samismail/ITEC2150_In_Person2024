@@ -13,7 +13,7 @@ public class SumExceptionHandling2 {
             try {
                 System.out.println("Enter two intergers: ");
                 int num1 = input.nextInt(), num2 = input.nextInt();
-                sum = num1 + num2
+                sum = num1 + num2;
             }
 
         catch(InputMismatchException ex){
